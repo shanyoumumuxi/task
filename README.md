@@ -21,3 +21,4 @@
   - `2-apt-update.png`：apt 联网正常
   - `3-github-curl.png`：命令行访问 GitHub 成功
   - `4-github-login.png`：浏览器已登录 GitHub
+  - `6-cpp-env.png`：C++ 环境配置（Windows + VS Code）
