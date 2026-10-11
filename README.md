@@ -1,9 +1,4 @@
-# 第一次任务
-
-## 任务内容
-
-1. 相关环境配置
-2. 熟悉 git 简单操作
+# 任务提交
 
 ## 目录结构
 
@@ -11,14 +6,26 @@
 .
 ├── task1
 │   └── environment        #配置环境
+├── task2
+│   ├── cpp
+│   │   ├── 1        #入门一
+│   │   └── 2        #入门二
+│   └── ros        #分支结构
 └── README.md
 ```
 
-## 文件说明
+## 任务说明
 
-- `task1/environment/`：配置环境相关的截图
-  - `1-ubuntu-version.png`：系统版本确认（Ubuntu 22.04.5 LTS）
-  - `2-apt-update.png`：apt 联网正常
-  - `3-github-curl.png`：命令行访问 GitHub 成功
-  - `4-github-login.png`：浏览器已登录 GitHub
-  - `6-cpp-env.png`：C++ 环境配置（Windows + VS Code）
+### 第一次任务
+
+1. 相关环境配置
+   - Ubuntu 22.04.5 LTS 虚拟机环境
+   - C++ 环境配置
+2. 熟悉 git 简单操作
+
+### 第二次任务
+
+1. 学习 C++ 基础语法，在洛谷题单广场「入门1」「入门2」中各完成 5 题
+   - 截图见 `task2/cpp/1/` 与 `task2/cpp/2/`
+2. 配置 ROS2 环境，实现键盘控制小海龟
+   - 截图见 `task2/ros/`
