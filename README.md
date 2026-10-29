@@ -48,6 +48,15 @@
 │   │       └── code.md
 │   └── ros
 │       └── helloworld-result.png
+├── task4
+│   └── cpp
+│       └── 6
+│           ├── 1.png
+│           ├── 2.png
+│           ├── 3.png
+│           ├── 4.png
+│           ├── 5.png
+│           └── code.md
 └── README.md
 ```
 
@@ -76,3 +85,9 @@
    - 评测结果截图：`task3/cpp/3/1.png` 至 `5.png`、`task3/cpp/4/1.png` 至 `5.png`
 2. 学习 ROS 2 节点，运行 C++ 节点输出 helloworld
    - 运行截图：`task3/ros/helloworld-result.png`
+
+### 第四次任务
+
+1. 继续学习 C++ 基础语法，完成“洛谷题6”中的 5 道题
+   - 代码：`task4/cpp/6/code.md`
+   - 评测结果截图：`task4/cpp/6/1.png` 至 `5.png`
