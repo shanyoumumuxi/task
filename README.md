@@ -57,6 +57,11 @@
 │           ├── 4.png
 │           ├── 5.png
 │           └── code.md
+├── task5
+│   └── ros
+│       └── topic
+│           ├── item-publisher.png
+│           └── item-subscriber.png
 └── README.md
 ```
 
@@ -91,3 +96,13 @@
 1. 继续学习 C++ 基础语法，完成“洛谷题6”中的 5 道题
    - 代码：`task4/cpp/6/code.md`
    - 评测结果截图：`task4/cpp/6/1.png` 至 `5.png`
+
+### 第五次任务
+
+1. 学习 ROS 2 话题与自定义消息，用 C++ 发布、接收并打印物品信息
+   - 物品信息：ID `1001`、名称 `Apple`、描述 `Fresh fruit`、价格 `3.50`
+   - 发布者运行截图：`task5/ros/topic/item-publisher.png`
+   - 订阅者运行截图：`task5/ros/topic/item-subscriber.png`
+   - 两端输出中的物品 ID 和基本信息一致
+2. 服务与自定义服务接口：服务端和客户端交替输出斐波那契数列，运行材料待补充
+3. 动作与自定义动作接口：累加 1 至 N，显示反馈及最终结果，运行材料待补充
