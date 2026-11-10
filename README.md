@@ -59,9 +59,13 @@
 │           └── code.md
 ├── task5
 │   └── ros
-│       └── topic
-│           ├── item-publisher.png
-│           └── item-subscriber.png
+│       ├── topic
+│       │   ├── item-publisher.png
+│       │   └── item-subscriber.png
+│       ├── service
+│       │   └── fibonacci-service.png
+│       └── action
+│           └── sum-action.png
 └── README.md
 ```
 
@@ -104,5 +108,11 @@
    - 发布者运行截图：`task5/ros/topic/item-publisher.png`
    - 订阅者运行截图：`task5/ros/topic/item-subscriber.png`
    - 两端输出中的物品 ID 和基本信息一致
-2. 服务与自定义服务接口：服务端和客户端交替输出斐波那契数列，运行材料待补充
-3. 动作与自定义动作接口：累加 1 至 N，显示反馈及最终结果，运行材料待补充
+2. 学习 ROS 2 服务与自定义服务接口，用 C++ 实现服务端和客户端交替输出斐波那契数列
+   - 自定义服务：`task5_interfaces/srv/FibonacciStep`
+   - 服务端输出偶数下标项，客户端输出奇数下标项，交替展示 F(0) 至 F(11)：0、1、1、2、3、5、8、13、21、34、55、89
+   - 接口与两端运行截图：`task5/ros/service/fibonacci-service.png`
+3. 学习 ROS 2 动作与自定义动作接口，用 C++ 实现从 1 累加至 N
+   - 自定义动作：`task5_interfaces/action/SumNumbers`；目标为 N，结果为最终累加和，反馈为当前数字和当前累加和
+   - 客户端发送 N=10，服务端逐项累加并发布反馈；客户端收到全部 10 次反馈和最终结果 55
+   - 接口、反馈与结果截图：`task5/ros/action/sum-action.png`
